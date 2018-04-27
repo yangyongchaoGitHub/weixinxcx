@@ -1,0 +1,42 @@
+page {
+    background-color: #F7F7F7;
+}
+
+.vvcenter {
+        width: 100%;
+        height: 1rpx;
+        background-color: #aaaaaa
+}
+
+.deviceItems {
+        display: flex;
+        width: 100%;
+        height: 98px;
+        background-color: beige;
+}
+
+.items_img {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+        height:98px;
+        width:60px;
+}
+
+.items_img_elm {
+        height:39px;
+        width:39px;
+}
+
+.items_value {
+        display:flex;
+        flex-direction:column;
+        margin:10px
+}
+
+.item_latitude {
+        width:100%;
+        text-align:center;
+        margin-left: 20px
+}

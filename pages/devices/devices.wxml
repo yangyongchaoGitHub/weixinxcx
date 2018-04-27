@@ -1,0 +1,21 @@
+<view>
+    <block wx:for="{{dds}}">
+        <block id="{{item.id}}">
+            <view class='deviceItems' id='{{item.id}}' bindtap='dds_item'>
+                <view class='items_img'>
+                    <image class='items_img_elm' src='/image/lll.png'></image>
+                </view>
+
+                <view class='items_value'>
+                    <text>{{item.id}}</text>
+                    <text>{{item.model}}</text>
+                    <view style='display:flex;flex-direction:row;'>
+                        <text>{{item.longitude}}</text>
+                        <text class='item_latitude'>{{item.latitude}}</text>
+                    </view>
+                </view>
+            </view>
+            <view class='vvcenter'></view>
+        </block>
+    </block>
+</view>

@@ -1,0 +1,86 @@
+<view class='root'>
+    <view class='showInfo' bindtap='showInfo'>查看设备详情</view>
+    <view class='items'>
+        <text class='description'> x轴电机温度 </text>
+        <text class='value {{xaxist}}'>{{mts.xAxisTemperature}}</text>
+    </view>
+    <view class='bottom_line'/>
+
+    <view class='items'>
+        <text class='description'> y轴电机温度 </text>
+        <text class='value {{yaxist}}'>{{mts.yAxisTemperature}}</text>
+    </view>
+    <view class='bottom_line'/>
+
+    <view class='items'>
+        <text class='description'> z轴电机温度 </text>
+        <text class='value {{zaxist}}'>{{mts.zAxisTemperature}}</text>
+    </view>
+    <view class='bottom_line'/>
+
+    <view class='items'>
+        <text class='description'> x轴电机电流 </text>
+        <text class='value {{xaxisc}}'>{{mts.xAxisCurrent}}</text>
+    </view>
+    <view class='bottom_line'/>
+
+    <view class='items'>
+        <text class='description'> y轴电机电流 </text>
+        <text class='value {{yaxisc}}'>{{mts.yAxisCurrent}}</text>
+    </view>
+    <view class='bottom_line'/>
+
+    <view class='items'>
+        <text class='description'> z轴电机电流 </text>
+        <text class='value {{zaxisc}}'>{{mts.zAxisCurrent}}</text>
+    </view>
+    <view class='bottom_line'/>
+
+    <view class='items'>
+        <text class='description'> 镜头电机电流 </text>
+        <text class='value {{lensc}}'>{{mts.lensCurrent}}</text>
+    </view>
+    <view class='bottom_line'/>
+
+    <view class='items'>
+        <text class='description'> 控制柜温度 </text>
+        <text class='value {{host}}'>{{mts.hostTemperature}}</text>
+    </view>
+    <view class='bottom_line'/>
+
+    <view class='items'>
+        <text class='description'> 电脑机箱温度 </text>
+        <text class='value {{ipct}}'>{{mts.ipctemperature}}</text>
+    </view>
+    <view class='bottom_line'/>
+
+    <view class='items'>
+        <text class='description'> 震动 </text>
+        <text class='value {{vibration}}'>{{mts.vibration}}</text>
+    </view>
+    <view class='bottom_line'/>
+
+    <view class='items'>
+        <text class='description'> 设备运行状态 </text>
+        <text class='value'>{{mts.startupStatus}}</text>
+    </view>
+    <view class='bottom_line'/>
+
+    <view class='items'>
+        <text class='description'> 设备易损部件状态 </text>
+        <text class='value'>{{mts.keypartStatus}}</text>
+    </view>
+    <view class='bottom_line'/>
+
+    <view class='items'>
+        <text class='description'> 设备位置状态 </text>
+        <text class='value'>{{mts.locationStatus}}</text>
+    </view>
+    <view class='bottom_line'/>
+
+    <view class='items'>
+        <text class='description'> 校准有效状态 </text>
+        <text class='value'>{{mts.calibrationStatus}}</text>
+    </view>
+    <view class='bottom_line'/>
+</view>

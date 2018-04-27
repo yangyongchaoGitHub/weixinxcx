@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取狗头和外号 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+
+      <text wx:if="{{userInfo.gender == 1}}" class="userinfo-gender">岚人</text>
+      <block wx:else>
+          <text class="userinfo-gender">捋人</text>
+      </block>
+      <text class="userinfo-city">{{userInfo.city}}</text>
+      <text class="userinfo-province">{{userInfo.province}}</text>
+      <text class="userinfo-country">{{userInfo.country}}</text>
+      <button bindtap='goDevices'> 测试 </button>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  
+  <view class="textline">
+       <view style='display:flex;flex-direction:column;justify-content:center;align-items: center;height:98px;width:60px;'>
+           <image style='height:39px;width:39px;' src='/image/lll.png'></image>
+       </view>
+
+       <view style='display:flex;flex-direction:column;margin:10px'>
+           <text>leileileilei</text>
+           <text>lalalalalala</text>
+           <view style='display:flex;flex-direction:row;'>
+               <text>123 </text>
+               <text style='width:100%;text-align:center;margin-left: 20px'>999999999999</text>
+           </view>
+       </view>
+  </view>
+  <view class='teststyle'> abar </view>
+  
+</view>

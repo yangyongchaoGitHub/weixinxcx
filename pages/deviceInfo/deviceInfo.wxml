@@ -1,0 +1,115 @@
+<view class='machinetoolroot'>
+    <view class='attribute'>
+        <text class='description'> id </text>
+        <text class='value'>{{mt.id}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'> area </text>
+        <text class='value'>{{mt.area}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'>calibrationDate</text>
+        <text class='value'>{{mt.calibrationDate}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'> company </text>
+        <text class='value'>{{mt.company}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'> cycle </text>
+        <text class='value'>{{mt.cycle}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'> department </text>
+        <text class='value'>{{mt.department}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'> enable </text>
+        <text class='value'>{{mt.enable}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'> factory </text>
+        <text class='value'>{{mt.factory}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'> latitude </text>
+        <text class='value'>{{mt.latitude}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'> longitude </text>
+        <text class='value'>{{mt.longitude}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'> maintainer </text>
+        <text class='value'>{{mt.maintainer}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'> model </text>
+        <text class='value'>{{mt.model}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'> manufacturer </text>
+        <text class='value'>{{mt.manufacturer}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'> model </text>
+        <text class='value'>{{mt.model}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'> name </text>
+        <text class='value'>{{mt.name}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'>propertyNumber</text>
+        <text class='value'>{{mt.propertyNumber}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'>remarks</text>
+        <text class='value'>{{mt.remarks}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'>serialNo</text>
+        <text class='value'>{{mt.serialNo}}</text>
+    </view>
+    <view class='bottom'></view>
+
+    <view class='attribute'>
+        <text class='description'>sn</text>
+        <text class='value'>{{mt.sn}}</text>
+    </view>
+    <view class='bottom'></view>
+</view>

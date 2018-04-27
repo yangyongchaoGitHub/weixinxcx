@@ -1,0 +1,19 @@
+<view class='root'>
+    <view class='item'>
+        <input id='user' bindinput='userInput' placeholder='用户名/手机号'></input>
+    </view>
+
+    <view class='item'>
+        <input id='pswd' bindinput='pswdInput' placeholder='密码'></input>
+    </view>
+
+    <view class='item'>
+        <text class='submit {{loginBG}}' bindtap='userLogin'>登录</text>
+    </view>
+
+    <view class='bottom'>
+        <text class='smslogin'>短信验证码登录</text>
+        <text class='losspswd'>忘记密码</text>
+    </view>
+    
+</view>

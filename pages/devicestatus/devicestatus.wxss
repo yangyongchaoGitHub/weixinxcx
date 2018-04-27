@@ -1,0 +1,55 @@
+page {
+    background-color: #F7F7F7;
+}
+
+.bottom_line {
+    width: 90%;
+    height: 1rpx;
+    background-color: #aaaaaa;
+    margin-left: 20px;
+}
+
+.items {
+    display:flex;
+    flex-direction:row;
+    height: 80rpx;
+}
+
+.description {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 80rpx;
+    margin-left: 20rpx
+}
+
+.value {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width: 100%;
+    height: 80rpx;
+    margin-left: 18px
+}
+
+.check_1 {
+    color: black;
+}
+
+.check_2 {
+    color: orange;
+}
+
+.check_3 {
+    color: red;
+}
+
+.showInfo {
+    height: 100rpx;
+    background-color: orange;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}

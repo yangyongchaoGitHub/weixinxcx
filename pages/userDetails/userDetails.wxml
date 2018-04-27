@@ -1,0 +1,28 @@
+<view class='root'>
+    <view class='head_parent'>
+        <text class='head_left'>头像</text>
+        <view class='head_right'>
+            <image class='head' src='/image/head.png'></image>
+        </view>
+    </view>
+    <view class='bottomLine'></view>
+
+    <view class='name_parent'>
+        <text class='name_left'>姓名</text>
+        <text class='name_right'>这是姓名</text>
+    </view>
+    <view class='bottomLine'></view>
+
+    <view class='phone_parent'>
+        <text class='phone_left'>手机号码</text>
+        <text class='phone_right'>这是手机号码</text>
+    </view>
+
+    <view class='changePswd'>
+        <text class='changePswd_text'>修改登录密码</text>
+    </view>
+
+    <view class='logout'>
+        <text class='logout_text'>退出登录</text>
+    </view>
+</view>
